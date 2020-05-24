@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "environment": "nodemon environment_variables.js",
-    "globals": "nodemon modules/globals.js"
+    "globals": "nodemon modules/globals.js",
+    "fs": "nodemon modules/fs.js"
   },
   "keywords": [],
   "author": "",
