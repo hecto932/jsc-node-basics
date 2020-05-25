@@ -11,7 +11,8 @@
     "child_process": "nodemon modules/childProcess.js",
     "native": "nodemon modules/natives/index.js",
     "http": "nodemon modules/http.js",
-    "os": "nodemon modules/os.js"
+    "os": "nodemon modules/os.js",
+    "process": "nodemon modules/process.js"
   },
   "keywords": [],
   "author": "",
