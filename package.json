@@ -8,12 +8,14 @@
     "globals": "nodemon modules/globals.js",
     "fs": "nodemon modules/fs.js",
     "console": "nodemon modules/console.js",
-    "child_process": "nodemon modules/childProcess.js"
+    "child_process": "nodemon modules/childProcess.js",
+    "native": "nodemon modules/natives/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "node-gyp": "^5.1.1",
     "nodemon": "^2.0.4"
   }
 }
