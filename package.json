@@ -7,7 +7,8 @@
     "environment": "nodemon environment_variables.js",
     "globals": "nodemon modules/globals.js",
     "fs": "nodemon modules/fs.js",
-    "console": "nodemon modules/console.js"
+    "console": "nodemon modules/console.js",
+    "child_process": "nodemon modules/childProcess.js"
   },
   "keywords": [],
   "author": "",
