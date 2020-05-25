@@ -10,7 +10,8 @@
     "console": "nodemon modules/console.js",
     "child_process": "nodemon modules/childProcess.js",
     "native": "nodemon modules/natives/index.js",
-    "http": "nodemon modules/http.js"
+    "http": "nodemon modules/http.js",
+    "os": "nodemon modules/os.js"
   },
   "keywords": [],
   "author": "",
