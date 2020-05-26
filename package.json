@@ -15,7 +15,8 @@
     "process": "nodemon modules/process.js",
     "bcrypt": "nodemon packages/utils/bcrypt.js",
     "moment": "nodemon packages/utils/moment.js",
-    "sharp": "nodemon packages/utils/sharp.js"
+    "sharp": "nodemon packages/utils/sharp.js",
+    "buffer": "nodemon memory/buffer.js"
   },
   "keywords": [],
   "author": "",
