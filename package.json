@@ -12,7 +12,10 @@
     "native": "nodemon modules/natives/index.js",
     "http": "nodemon modules/http.js",
     "os": "nodemon modules/os.js",
-    "process": "nodemon modules/process.js"
+    "process": "nodemon modules/process.js",
+    "bcrypt": "nodemon packages/utils/bcrypt.js",
+    "moment": "nodemon packages/utils/moment.js",
+    "sharp": "nodemon packages/utils/sharp.js"
   },
   "keywords": [],
   "author": "",
@@ -20,5 +23,10 @@
   "devDependencies": {
     "node-gyp": "^5.1.1",
     "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "moment": "^2.26.0",
+    "sharp": "^0.25.3"
   }
 }
