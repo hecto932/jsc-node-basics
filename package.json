@@ -16,7 +16,8 @@
     "bcrypt": "nodemon packages/utils/bcrypt.js",
     "moment": "nodemon packages/utils/moment.js",
     "sharp": "nodemon packages/utils/sharp.js",
-    "buffer": "nodemon memory/buffer.js"
+    "buffer": "nodemon memory/buffer.js",
+    "streams": "nodemon memory/streams.js"
   },
   "keywords": [],
   "author": "",
