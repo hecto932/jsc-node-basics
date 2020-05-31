@@ -17,7 +17,8 @@
     "moment": "nodemon packages/utils/moment.js",
     "sharp": "nodemon packages/utils/sharp.js",
     "buffer": "nodemon memory/buffer.js",
-    "streams": "nodemon memory/streams.js"
+    "streams": "nodemon memory/streams.js",
+    "tricks/benchmarking": "nodemon tricks/benchmarking.js"
   },
   "keywords": [],
   "author": "",
