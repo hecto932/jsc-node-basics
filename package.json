@@ -18,7 +18,8 @@
     "sharp": "nodemon packages/utils/sharp.js",
     "buffer": "nodemon memory/buffer.js",
     "streams": "nodemon memory/streams.js",
-    "tricks/benchmarking": "nodemon tricks/benchmarking.js"
+    "tricks/benchmarking": "nodemon tricks/benchmarking.js",
+    "tricks/errorfirst": "nodemon tricks/errorFirst.js"
   },
   "keywords": [],
   "author": "",
