@@ -20,7 +20,11 @@
     "streams": "nodemon memory/streams.js",
     "tricks/benchmarking": "nodemon tricks/benchmarking.js",
     "tricks/errorfirst": "nodemon tricks/errorFirst.js",
-    "tools/scrapping": "nodemon tools/scrapping/index.js"
+    "tools/scrapping": "nodemon tools/scrapping/index.js",
+    "tools/automatization": "nodemon tools/automatization/",
+    "build": "gulp build",
+    "serve": "gulp serve",
+    "start": "gulp"
   },
   "keywords": [],
   "author": "",
@@ -31,6 +35,8 @@
   },
   "dependencies": {
     "bcrypt": "^4.0.1",
+    "gulp": "^4.0.2",
+    "gulp-server-livereload": "^1.9.2",
     "moment": "^2.26.0",
     "puppeteer": "^3.2.0",
     "sharp": "^0.25.3"
